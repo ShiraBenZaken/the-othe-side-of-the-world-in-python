@@ -10,7 +10,7 @@ mymap = Map(location = [latitude, longitude])
 
 #create a GeoPoint
 geopoint = GeoPoint(latitude = latitude, longitude = longitude)
-popup = Popup("Hello from Israel")
+popup = Popup(str(geopoint.get_weather()))
 popup.add_to(geopoint)
 geopoint.add_to(mymap)
 
