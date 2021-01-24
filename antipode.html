@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_e910ba2b66b0420a9a848797d380b663 {
+                #map_b5c21ef2a80d4c2da99b70af07de2bb5 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,15 +35,15 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_e910ba2b66b0420a9a848797d380b663" ></div>
+            <div class="folium-map" id="map_b5c21ef2a80d4c2da99b70af07de2bb5" ></div>
         
 </body>
 <script>    
     
-            var map_e910ba2b66b0420a9a848797d380b663 = L.map(
-                "map_e910ba2b66b0420a9a848797d380b663",
+            var map_b5c21ef2a80d4c2da99b70af07de2bb5 = L.map(
+                "map_b5c21ef2a80d4c2da99b70af07de2bb5",
                 {
-                    center: [-31.78, -144.96],
+                    center: [31.78, 35.04],
                     crs: L.CRS.EPSG3857,
                     zoom: 10,
                     zoomControl: true,
@@ -55,9 +55,34 @@
 
         
     
-            var tile_layer_e110d89205124ee0bbdcdb037885a2c8 = L.tileLayer(
+            var tile_layer_8a180cd4f03c4253a056caf48867d25c = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_e910ba2b66b0420a9a848797d380b663);
+            ).addTo(map_b5c21ef2a80d4c2da99b70af07de2bb5);
         
+    
+            var marker_7823f08f8bd54439854ca92fc57fa345 = L.marker(
+                [31.78, 35.04],
+                {}
+            ).addTo(map_b5c21ef2a80d4c2da99b70af07de2bb5);
+        
+    
+            var marker_6ecc63dd773b467ea0532e598f1f2319 = L.marker(
+                [31.78, 35.04],
+                {}
+            ).addTo(map_b5c21ef2a80d4c2da99b70af07de2bb5);
+        
+    
+        var popup_8a40e3b193c04251af37c9e8ed6ee42c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_998341194d124b16b4554a5d0b138025 = $(`<div id="html_998341194d124b16b4554a5d0b138025" style="width: 100.0%; height: 100.0%;">hello to israel</div>`)[0];
+            popup_8a40e3b193c04251af37c9e8ed6ee42c.setContent(html_998341194d124b16b4554a5d0b138025);
+        
+
+        marker_6ecc63dd773b467ea0532e598f1f2319.bindPopup(popup_8a40e3b193c04251af37c9e8ed6ee42c)
+        ;
+
+        
+    
 </script>
