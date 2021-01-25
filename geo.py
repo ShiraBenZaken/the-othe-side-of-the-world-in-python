@@ -8,8 +8,8 @@ from folium import Marker
 
 class GeoPoint(Marker):
     
-    def __init__(self, latitude, longitude, popup = None):
-        super().__init__(location = [latitude, longitude], popup = popup)
+    def __init__(self, latitude, longitude):
+        super().__init__(location = [latitude, longitude])
         self.latitude = latitude
         self.longitude = longitude
     
