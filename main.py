@@ -1,6 +1,9 @@
 from folium import Map, Marker, Popup
 from geo import GeoPoint
 
+#todo: 1. add the real other point of the correct point.
+#      2. the user add the point he wants
+
 # Get input values
 locations = [[31.78, 35.04],[41, -1],[36, 17]]
 
